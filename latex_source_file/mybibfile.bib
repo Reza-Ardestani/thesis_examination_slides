@@ -1,0 +1,991 @@
+%%%%%%%%%%%%%%%%%%%%
+introduction:
+
+@article{Kumar2022,
+title = {An exploratory study of automatic text summarization in biomedical and healthcare domain},
+journal = {Healthcare Analytics},
+volume = {2},
+pages = {100058},
+year = {2022},
+issn = {2772-4425},
+doi = {https://doi.org/10.1016/j.health.2022.100058},
+url = {https://www.sciencedirect.com/science/article/pii/S2772442522000223},
+author = {Mukesh Kumar Rohil and Varun Magotra},
+keywords = {Artificial Intelligence, Electronic Health Records, Automatic Text Summarization, Natural Language Processing, Unified Medical Language System, Medical Subject Headings},
+}
+
+@InProceedings{Hou2018,
+author="Hou, Liwei
+and Hu, Po
+and Bei, Chao",
+editor="Huang, Xuanjing
+and Jiang, Jing
+and Zhao, Dongyan
+and Feng, Yansong
+and Hong, Yu",
+title="Abstractive Document Summarization via Neural Model with Joint Attention",
+booktitle="Natural Language Processing and Chinese Computing",
+year="2018",
+publisher="Springer International Publishing",
+address="Cham",
+pages="329--338",
+abstract="",
+isbn="978-3-319-73618-1"
+}
+
+@misc{vaswani2017,
+  doi = {10.48550/ARXIV.1706.03762},
+  
+  url = {https://arxiv.org/abs/1706.03762},
+  
+  author = {Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and Uszkoreit, Jakob and Jones, Llion and Gomez, Aidan N. and Kaiser, Lukasz and Polosukhin, Illia},
+  
+  keywords = {Computation and Language (cs.CL), Machine Learning (cs.LG), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  
+  title = {Attention Is All You Need},
+  
+  publisher = {arXiv},
+  
+  year = {2017},
+  
+  copyright = {arXiv.org perpetual, non-exclusive license}
+}
+
+
+@Article{Popel2020,
+author={Popel, Martin
+and Tomkova, Marketa
+and Tomek, Jakub
+and Kaiser, {\L}ukasz
+and Uszkoreit, Jakob
+and Bojar, Ond{\v{r}}ej
+and {\v{Z}}abokrtsk{\'y}, Zden{\v{e}}k},
+title={Transforming machine translation: a deep learning system reaches news translation quality comparable to human professionals},
+journal={Nature Communications},
+year={2020},
+month={Sep},
+day={01},
+volume={11},
+number={1},
+pages={4381},
+issn={2041-1723},
+doi={10.1038/s41467-020-18073-9},
+url={https://doi.org/10.1038/s41467-020-18073-9}
+}
+
+@inproceedings{salchner2022survey,
+  title={A Survey of Automatic Text Summarization Using Graph Neural Networks},
+  author={Salchner, Marco Ferdinand and Jatowt, Adam},
+  booktitle={Proceedings of the 29th International Conference on Computational Linguistics},
+  pages={6139--6150},
+  year={2022}
+}
+
+@incollection{GNNBook-ch21-liu,
+author = "Liu, Bang and Wu, Lingfei",
+editor = "Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang",
+title = "Graph Neural Networks in Natural Language Processing",
+booktitle = "Graph Neural Networks: Foundations, Frontiers, and Applications",
+year = "2022",
+publisher = "Springer Singapore",
+address = "Singapore",
+pages = "463--481",
+}
+
+
+@inproceedings{FAsum,
+    title = "Enhancing Factual Consistency of Abstractive Summarization",
+    author = "Zhu, Chenguang  and
+      Hinthorn, William  and
+      Xu, Ruochen  and
+      Zeng, Qingkai  and
+      Zeng, Michael  and
+      Huang, Xuedong  and
+      Jiang, Meng",
+    editor = "Toutanova, Kristina  and
+      Rumshisky, Anna  and
+      Zettlemoyer, Luke  and
+      Hakkani-Tur, Dilek  and
+      Beltagy, Iz  and
+      Bethard, Steven  and
+      Cotterell, Ryan  and
+      Chakraborty, Tanmoy  and
+      Zhou, Yichao",
+    booktitle = "Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+    month = jun,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.naacl-main.58",
+    doi = "10.18653/v1/2021.naacl-main.58",
+    pages = "718--733",
+}
+
+@book{levi1942finite,
+  title     = {Finite Geometrical Systems},
+  author    = {Friedrich Wilhelm Levi},
+  year      = {1942},
+  publisher = {Julius Springer},
+  address   = {Berlin},
+}
+
+@misc{BRIO,
+      title={BRIO: Bringing Order to Abstractive Summarization}, 
+      author={Yixin Liu and Pengfei Liu and Dragomir Radev and Graham Neubig},
+      year={2022},
+      eprint={2203.16804},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2203.16804}, 
+}
+
+
+%%%%%%%%%%%%%%%%%%%
+
+
+
+%%%%%%%%%%%%%%%%%%%%
+Background:
+
+
+@Article{AGI-ASI,
+AUTHOR = {Kalota, Faisal},
+TITLE = {A Primer on Generative Artificial Intelligence},
+JOURNAL = {Education Sciences},
+VOLUME = {14},
+YEAR = {2024},
+NUMBER = {2},
+ARTICLE-NUMBER = {172},
+URL = {https://www.mdpi.com/2227-7102/14/2/172},
+ISSN = {2227-7102},
+DOI = {10.3390/educsci14020172}
+} 
+
+@article{Anderson1992Artificial,
+  title={Artificial neural networks technology},
+  author={Anderson, Dave and McNeill, George},
+  journal={Kaman Sciences Corporation},
+  volume={258},
+  number={6},
+  pages={1--83},
+  year={1992}
+}
+
+@article{curve-fitting,
+title = {Efficient curve fitting: An application of multiobjective programming},
+journal = {Applied Mathematical Modelling},
+volume = {35},
+number = {1},
+pages = {346-365},
+year = {2011},
+issn = {0307-904X},
+doi = {https://doi.org/10.1016/j.apm.2010.06.009},
+url = {https://www.sciencedirect.com/science/article/pii/S0307904X10002374},
+author = {L. Pourkarimi and M.A. Yaghoobi and M. Mashinchi},
+keywords = {Multiobjective linear programming, Maximal efficient face, Efficiency, Curve fitting, Smoothness},
+}
+
+@article{sigmoid,
+title = {The generalized sigmoid activation function: Competitive supervised learning},
+journal = {Information Sciences},
+volume = {99},
+number = {1},
+pages = {69-82},
+year = {1997},
+issn = {0020-0255},
+doi = {https://doi.org/10.1016/S0020-0255(96)00200-9},
+url = {https://www.sciencedirect.com/science/article/pii/S0020025596002009},
+author = {Sridhar Narayan},
+}
+
+@misc{elu,
+      title={Fast and Accurate Deep Network Learning by Exponential Linear Units (ELUs)}, 
+      author={Djork-Arné Clevert and Thomas Unterthiner and Sepp Hochreiter},
+      year={2016},
+      eprint={1511.07289},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+
+@misc{gelu,
+      title={Gaussian Error Linear Units (GELUs)}, 
+      author={Dan Hendrycks and Kevin Gimpel},
+      year={2023},
+      eprint={1606.08415},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+
+
+@misc{L2regularization,
+      title={L2 Regularization versus Batch and Weight Normalization}, 
+      author={Twan van Laarhoven},
+      year={2017},
+      eprint={1706.05350},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+
+@article{Dropout,
+  author  = {Nitish Srivastava and Geoffrey Hinton and Alex Krizhevsky and Ilya Sutskever and Ruslan Salakhutdinov},
+  title   = {Dropout: A Simple Way to Prevent Neural Networks from Overfitting},
+  journal = {Journal of Machine Learning Research},
+  year    = {2014},
+  volume  = {15},
+  number  = {56},
+  pages   = {1929--1958},
+  url     = {http://jmlr.org/papers/v15/srivastava14a.html}
+}
+
+@misc{gradient,
+      title={An overview of gradient descent optimization algorithms}, 
+      author={Sebastian Ruder},
+      year={2017},
+      eprint={1609.04747},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+
+@book{mathOfMachineLearning,
+  added-at = {2024-01-11T06:44:54.000+0100},
+  author = {Deisenroth, Marc Peter and Faisal, Aldo and Ong, Cheng Soon},
+  biburl = {https://www.bibsonomy.org/bibtex/264405b0edb3ca7ff1674945cfd548976/gdmcbain},
+  interhash = {876f4a593e888f3257674a89d7456f25},
+  intrahash = {64405b0edb3ca7ff1674945cfd548976},
+  isbn = {9781108455145},
+  keywords = {00a06-mathematics-for-nonmathematicians 62-07-data-analysis},
+  publisher = {Cambridge University Press},
+  timestamp = {2024-01-11T06:44:54.000+0100},
+  title = {Mathematics for Machine Learning},
+  url = {https://www.cambridge.org/au/universitypress/subjects/computer-science/pattern-recognition-and-machine-learning/mathematics-machine-learning?format=PB},
+  year = 2020
+}
+
+@book{speechAndLanguage,
+author = {Jurafsky, Daniel and Martin, James H.},
+title = {Speech and Language Processing: An Introduction to Natural Language Processing, Computational Linguistics, and Speech Recognition},
+year = {2000},
+isbn = {0130950696},
+publisher = {Prentice Hall PTR},
+address = {USA},
+edition = {1st},
+abstract = {From the Publisher:This book takes an empirical approach to language processing, based on applying statistical and other machine-learning algorithms to large corpora. Methodology boxes are included in each chapter. Each chapter is built around one or more worked examples to demonstrate the main idea of the chapter. Covers the fundamental algorithms of various fields, whether originally proposed for spoken or written language to demonstrate how the same algorithm can be used for speech recognition and word-sense disambiguation. Emphasis on web and other practical applications. Emphasis on scientific evaluation. Useful as a reference for professionals in any of the areas of speech and language processing.}
+}
+
+@article{Hamilton-William-graphs,
+author={Hamilton, William L. graphs},
+title={Graph Representation Learning},
+journal={Synthesis Lectures on Artificial Intelligence and Machine Learning},
+volume={14},
+number={3},
+pages={1-159},
+year = {2020},
+publisher={Morgan and Claypool}
+}
+
+@incollection{GNNBook-ch3-wu,
+author = "Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang and Song, Le",
+editor = "Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang",
+title = "Graph Neural Networks",
+booktitle = "Graph Neural Networks: Foundations, Frontiers, and Applications",
+year = "2022",
+publisher = "Springer Singapore",
+address = "Singapore",
+pages = "27--37",
+}
+
+
+@misc{gcn,
+      title={Semi-Supervised Classification with Graph Convolutional Networks}, 
+      author={Thomas N. Kipf and Max Welling},
+      year={2017},
+      eprint={1609.02907},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+
+
+@misc{gat,
+      title={Graph Attention Networks}, 
+      author={Petar Veličković and Guillem Cucurull and Arantxa Casanova and Adriana Romero and Pietro Liò and Yoshua Bengio},
+      year={2018},
+      eprint={1710.10903},
+      archivePrefix={arXiv},
+      primaryClass={stat.ML}
+}
+
+
+@article{summarizationSurvey-waffa-el-kassas,
+title = {Automatic text summarization: A comprehensive survey},
+journal = {Expert Systems with Applications},
+volume = {165},
+pages = {113679},
+year = {2021},
+issn = {0957-4174},
+doi = {https://doi.org/10.1016/j.eswa.2020.113679},
+url = {https://www.sciencedirect.com/science/article/pii/S0957417420305030},
+author = {Wafaa S. El-Kassas and Cherif R. Salama and Ahmed A. Rafea and Hoda K. Mohamed},
+keywords = {Automatic text summarization, Text summarization approaches, Text summarization techniques, Text summarization evaluation},
+}
+
+
+@inproceedings{rouge,
+    title = "{ROUGE}: A Package for Automatic Evaluation of Summaries",
+    author = "Lin, Chin-Yew",
+    booktitle = "Text Summarization Branches Out",
+    month = jul,
+    year = "2004",
+    address = "Barcelona, Spain",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/W04-1013",
+    pages = "74--81",
+}
+
+@misc{bertscore,
+      title={BERTScore: Evaluating Text Generation with BERT}, 
+      author={Tianyi Zhang and Varsha Kishore and Felix Wu and Kilian Q. Weinberger and Yoav Artzi},
+      year={2020},
+      eprint={1904.09675},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+
+
+
+@inproceedings{bert,
+    title = "{BERT}: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+    author = "Devlin, Jacob  and
+      Chang, Ming-Wei  and
+      Lee, Kenton  and
+      Toutanova, Kristina",
+    editor = "Burstein, Jill  and
+      Doran, Christy  and
+      Solorio, Thamar",
+    booktitle = "Proceedings of the 2019 Conference of the North {A}merican Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)",
+    month = jun,
+    year = "2019",
+    address = "Minneapolis, Minnesota",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/N19-1423",
+    doi = "10.18653/v1/N19-1423",
+    pages = "4171--4186",
+}
+
+@inproceedings{BooksCorpus,
+  title={Aligning books and movies: Towards story-like visual explanations by watching movies and reading books},
+  author={Zhu, Yukun and Kiros, Ryan and Zemel, Rich and Salakhutdinov, Ruslan and Urtasun, Raquel and Torralba, Antonio and Fidler, Sanja},
+  booktitle={Proceedings of the IEEE international conference on computer vision},
+  pages={19--27},
+  year={2015}
+}
+
+@misc{longformer,
+  added-at = {2020-10-28T11:32:53.000+0100},
+  archiveprefix = {arXiv},
+  author = {Beltagy, Iz and Peters, Matthew E. and Cohan, Arman},
+  biburl = {https://www.bibsonomy.org/bibtex/22435246630c361e01f31009339c70f41/ghagerer},
+  eprint = {2004.05150},
+  interhash = {9197cfbaf90615f175718342fe883457},
+  intrahash = {2435246630c361e01f31009339c70f41},
+  keywords = {bert pre-trained transfer-learning transformer},
+  primaryclass = {cs.CL},
+  timestamp = {2020-10-28T11:32:53.000+0100},
+  title = {Longformer: The Long-Document Transformer},
+  url = {https://arxiv.org/abs/2004.05150},
+  year = 2020
+}
+
+@article{GPT,
+  title={Improving Language Understanding by Generative Pre-training},
+  author={Radford, Alec and Narasimhan, Karthik and Salimans, Tim and Sutskever, Ilya},
+  year={2018},
+  url={https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf},
+}
+
+
+@inproceedings{BertSum,
+    title = "Text Summarization with Pretrained Encoders",
+    author = "Liu, Yang  and
+      Lapata, Mirella",
+    editor = "Inui, Kentaro  and
+      Jiang, Jing  and
+      Ng, Vincent  and
+      Wan, Xiaojun",
+    booktitle = "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)",
+    month = nov,
+    year = "2019",
+    address = "Hong Kong, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/D19-1387",
+    doi = "10.18653/v1/D19-1387",
+    pages = "3730--3740",
+}
+
+
+@misc{SimpleTOD,
+      title={A Simple Language Model for Task-Oriented Dialogue}, 
+      author={Ehsan Hosseini-Asl and Bryan McCann and Chien-Sheng Wu and Semih Yavuz and Richard Socher},
+      year={2022},
+      eprint={2005.00796},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+
+
+@misc{graphRAG,
+      title={From Local to Global: A Graph RAG Approach to Query-Focused Summarization}, 
+      author={Darren Edge and Ha Trinh and Newman Cheng and Joshua Bradley and Alex Chao and Apurva Mody and Steven Truitt and Jonathan Larson},
+      year={2024},
+      eprint={2404.16130},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+
+
+@misc{MSE,
+      title={MSE Loss with Outlying Label for Imbalanced Classification}, 
+      author={Sota Kato and Kazuhiro Hotta},
+      year={2021},
+      eprint={2107.02393},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+
+@inproceedings{gradual-training,
+    title = "Universal Language Model Fine-tuning for Text Classification",
+    author = "Howard, Jeremy  and
+      Ruder, Sebastian",
+    editor = "Gurevych, Iryna  and
+      Miyao, Yusuke",
+    booktitle = "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2018",
+    address = "Melbourne, Australia",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/P18-1031",
+    doi = "10.18653/v1/P18-1031",
+    pages = "328--339",
+}
+
+
+
+@INPROCEEDINGS{pageRankForExtractiveSummary,
+  author={Wang, Shuai and Zhao, Xiang and Li, Bo and Ge, Bin and Tang, Daquan},
+  booktitle={2017 IEEE International Congress on Big Data (BigData Congress)}, 
+  title={Integrating Extractive and Abstractive Models for Long Text Summarization}, 
+  year={2017},
+  volume={},
+  number={},
+  pages={305-312},
+  keywords={Semantics;Feature extraction;Training;Silicon;Recurrent neural networks;Analytical models;Internet;automatic text summarization;graph model;recurrent neural network},
+  doi={10.1109/BigDataCongress.2017.46}}
+
+
+@inproceedings{page1999pagerank,
+  title={The PageRank citation ranking: Bringing order to the web},
+  author={Page, Lawrence and Brin, Sergey and Motwani, Rajeev and Winograd, Terry},
+  booktitle={Proceedings of the 7th International World Wide Web Conference (WWW)},
+  year={1999},
+  organization={Stanford InfoLab}
+}
+
+
+@article{levenshtein1966binary,
+  title={Binary codes capable of correcting deletions, insertions, and reversals},
+  author={Levenshtein, Vladimir I.},
+  journal={Soviet Physics Doklady},
+  volume={10},
+  number={8},
+  pages={707-710},
+  year={1966},
+  publisher={Soviet Union}
+}
+
+@inproceedings{see2017get,
+  title={Get to the point: Summarization with pointer-generator networks},
+  author={See, Abigail and Liu, Peter J. and Manning, Christopher D.},
+  booktitle={Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
+  pages={1073--1083},
+  year={2017}
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%
+ENCODER MODELS:
+@inproceedings{DiscoBERT,
+    title = {Discourse-Aware Neural Extractive Text Summarization},
+    author = {Xu, Jiacheng and Gan, Zhe and Cheng, Yu and Liu, Jingjing},
+    booktitle = "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+    year = {2020},
+    publisher = "Association for Computational Linguistics"
+}
+
+%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%
+DECODER MODELS
+
+@InProceedings{pegasus,
+  title = 	 {{PEGASUS}: Pre-training with Extracted Gap-sentences for Abstractive Summarization},
+  author =       {Zhang, Jingqing and Zhao, Yao and Saleh, Mohammad and Liu, Peter},
+  booktitle = 	 {Proceedings of the 37th International Conference on Machine Learning},
+  pages = 	 {11328--11339},
+  year = 	 {2020},
+  editor = 	 {III, Hal Daumé and Singh, Aarti},
+  volume = 	 {119},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {13--18 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v119/zhang20ae/zhang20ae.pdf},
+  url = 	 {https://proceedings.mlr.press/v119/zhang20ae.html},
+}
+
+
+@inproceedings{bart,
+    title = "{BART}: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension",
+    author = "Lewis, Mike  and
+      Liu, Yinhan  and
+      Goyal, Naman  and
+      Ghazvininejad, Marjan  and
+      Mohamed, Abdelrahman  and
+      Levy, Omer  and
+      Stoyanov, Veselin  and
+      Zettlemoyer, Luke",
+    editor = "Jurafsky, Dan  and
+      Chai, Joyce  and
+      Schluter, Natalie  and
+      Tetreault, Joel",
+    booktitle = "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+    month = jul,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2020.acl-main.703",
+    doi = "10.18653/v1/2020.acl-main.703",
+    pages = "7871--7880",
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%
+Data sets
+@InProceedings{xsum,
+  author =      "Shashi Narayan and Shay B. Cohen and Mirella Lapata",
+  title =       "Don't Give Me the Details, Just the Summary! Topic-Aware Convolutional Neural Networks for Extreme Summarization",
+  booktitle =   "Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing ",
+  year =        "2018",
+  address =     "Brussels, Belgium",
+}
+
+
+@article{graphbank,
+  title={Representing Discourse Coherence: A Corpus-Based Study},
+  author={Wolf, Florian and Gibson, Edward},
+  journal={Computational Linguistics},
+  volume={31},
+  number={2},
+  pages={249--287},
+  year={2005}
+}
+
+
+@inproceedings{PDTB,
+  title={The Penn Discourse Treebank},
+  author={Miltsakaki, Eleni and Prasad, Rashmi and Joshi, Aravind and Webber, Bonnie},
+  booktitle={Proceedings of the Fourth International Conference on Language Resources and Evaluation (LREC'04)},
+  year={2004}
+}
+
+@inproceedings{multiwoz,
+    title = "{M}ulti{WOZ} 2.1: A Consolidated Multi-Domain Dialogue Dataset with State Corrections and State Tracking Baselines",
+    author = "Eric, Mihail  and
+      Goel, Rahul  and
+      Paul, Shachi  and
+      Sethi, Abhishek  and
+      Agarwal, Sanchit  and
+      Gao, Shuyang  and
+      Kumar, Adarsh  and
+      Goyal, Anuj  and
+      Ku, Peter  and
+      Hakkani-Tur, Dilek",
+    editor = "Calzolari, Nicoletta  and
+      B{\'e}chet, Fr{\'e}d{\'e}ric  and
+      Blache, Philippe  and
+      Choukri, Khalid  and
+      Cieri, Christopher  and
+      Declerck, Thierry  and
+      Goggi, Sara  and
+      Isahara, Hitoshi  and
+      Maegaard, Bente  and
+      Mariani, Joseph  and
+      Mazo, H{\'e}l{\`e}ne  and
+      Moreno, Asuncion  and
+      Odijk, Jan  and
+      Piperidis, Stelios",
+    booktitle = "Proceedings of the Twelfth Language Resources and Evaluation Conference",
+    month = may,
+    year = "2020",
+    address = "Marseille, France",
+    publisher = "European Language Resources Association",
+    url = "https://aclanthology.org/2020.lrec-1.53",
+    pages = "422--428",
+    language = "English",
+    ISBN = "979-10-95546-34-4",
+}
+
+
+@inproceedings{RST-DT,
+  title={Building a discourse-tagged corpus in the framework of rhetorical structure theory},
+  author={Carlson, Lynn and Marcu, Daniel and Okurovsky, Mary Ellen},
+  booktitle={Proceedings of the SIGDIAL 2001 Workshop, The 2nd Annual Meeting of the Special Interest Group on Discourse and Dialogue},
+  pages={},
+  year={2001},
+  organization={},
+  address={Aalborg, Denmark},
+  date={2001-09-01/2001-09-02}
+}
+
+
+@inproceedings{sumpubmed,
+    title = "{SumPubMed}: Summarization Dataset of {P}ub{M}ed Scientific Articles",
+    author = "Gupta, Vivek  and
+      Bharti, Prerna  and
+      Nokhiz, Pegah  and
+      Karnick, Harish",
+    editor = "Kabbara, Jad  and
+      Lin, Haitao  and
+      Paullada, Amandalynne  and
+      Vamvas, Jannis",
+    booktitle = "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing: Student Research Workshop",
+    month = aug,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.acl-srw.30",
+    doi = "10.18653/v1/2021.acl-srw.30",
+    pages = "292--303",
+}
+
+
+@misc{NYT,
+  author = {Sandhaus, Evan},
+  title = {The New York Times Annotated Corpus},
+  year = {2008},
+  publisher = {Linguistic Data Consortium},
+  address = {Philadelphia},
+  note = {LDC2008T19},
+  howpublished = {Web Download}
+}
+
+@misc{DUC,
+  author = {Donna Harman and Paul Over},
+  title = {The DUC Summarization Evaluations},
+  year = {2002},
+  month = {2002-03-01},
+  publisher = {Proceedings of HLT 2002 Second International Conference on Human Language Technology Research},
+  language = {en}
+}
+
+
+@misc{Gigaword2007,
+  author = {Graff, David and others},
+  title = {English Gigaword Third Edition},
+  year = {2007},
+  publisher = {Linguistic Data Consortium},
+  address = {Philadelphia},
+  note = {LDC2007T07},
+  howpublished = {Web Download}
+}
+
+
+@inproceedings{CNNDM,
+    title = "Abstractive Text Summarization using Sequence-to-sequence {RNN}s and Beyond",
+    author = "Nallapati, Ramesh  and
+      Zhou, Bowen  and
+      dos Santos, Cicero  and
+      Gul{\c{c}}ehre, {\c{C}}a{\u{g}}lar  and
+      Xiang, Bing",
+    editor = "Riezler, Stefan  and
+      Goldberg, Yoav",
+    booktitle = "Proceedings of the 20th {SIGNLL} Conference on Computational Natural Language Learning",
+    month = aug,
+    year = "2016",
+    address = "Berlin, Germany",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/K16-1028",
+    doi = "10.18653/v1/K16-1028",
+    pages = "280--290",
+}
+%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%
+%EDU Segmentation
+@inproceedings{EDUsum,
+    title = "Composing Elementary Discourse Units in Abstractive Summarization",
+    author = "Li, Zhenwen  and
+      Wu, Wenhao  and
+      Li, Sujian",
+    editor = "Jurafsky, Dan  and
+      Chai, Joyce  and
+      Schluter, Natalie  and
+      Tetreault, Joel",
+    booktitle = "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+    month = jul,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2020.acl-main.551",
+    doi = "10.18653/v1/2020.acl-main.551",
+    pages = "6191--6196",
+}
+
+@inproceedings{NeuralEDUseg,
+    title = "Toward Fast and Accurate Neural Discourse Segmentation",
+    author = "Wang, Yizhong  and
+      Li, Sujian  and
+      Yang, Jingfeng",
+    editor = "Riloff, Ellen  and
+      Chiang, David  and
+      Hockenmaier, Julia  and
+      Tsujii, Jun{'}ichi",
+    booktitle = "Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing",
+    month = oct # "-" # nov,
+    year = "2018",
+    address = "Brussels, Belgium",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/D18-1116",
+    doi = "10.18653/v1/D18-1116",
+    pages = "962--967",
+}
+
+@article{BiLSTM,
+  added-at = {2021-04-29T12:32:14.000+0200},
+  author = {Schuster, Mike and Paliwal, Kuldip K.},
+  biburl = {https://www.bibsonomy.org/bibtex/26026f083db110838a6b62c2eedfec9e9/nilsd},
+  citeulike-article-id = {2382095},
+  interhash = {f38e944d43d0b3e008971c0a50c41d58},
+  intrahash = {6026f083db110838a6b62c2eedfec9e9},
+  journal = {IEEE Transactions on Signal Processing},
+  keywords = {},
+  month = {November},
+  pages = {2673--2681},
+  priority = {2},
+  timestamp = {2021-04-29T12:32:14.000+0200},
+  title = {Bidirectional recurrent neural networks},
+  volume = 45,
+  year = 1997
+}
+
+@inproceedings{CRF,
+  acmid = {655813},
+  added-at = {2012-10-26T11:46:30.000+0200},
+  address = {San Francisco, CA, USA},
+  author = {Lafferty, John D. and McCallum, Andrew and Pereira, Fernando C. N.},
+  biburl = {https://www.bibsonomy.org/bibtex/2180c5d6097317fa1b19ca8df75341230/jil},
+  booktitle = {Proceedings of the Eighteenth International Conference on Machine Learning},
+  description = {Conditional Random Fields},
+  interhash = {574c59001ecc3aa04850e1751d96c137},
+  intrahash = {180c5d6097317fa1b19ca8df75341230},
+  isbn = {1-55860-778-1},
+  keywords = {bias conditional crf field fields random state},
+  numpages = {8},
+  pages = {282--289},
+  publisher = {Morgan Kaufmann Publishers Inc.},
+  series = {ICML '01},
+  timestamp = {2013-11-23T20:11:51.000+0100},
+  title = {Conditional Random Fields: Probabilistic Models for Segmenting and Labeling Sequence Data},
+  url = {http://dl.acm.org/citation.cfm?id=645530.655813},
+  year = 2001
+}
+
+@inproceedings{Glove,
+  added-at = {2016-02-18T12:02:38.000+0100},
+  author = {Pennington, Jeffrey and Socher, Richard and Manning, Christopher D},
+  biburl = {https://www.bibsonomy.org/bibtex/2a6e77a38c13e374ab250e13ae22993ec/thoni},
+  booktitle = {EMNLP},
+  interhash = {29813227df1eea94efa14c7df2b5553a},
+  intrahash = {a6e77a38c13e374ab250e13ae22993ec},
+  keywords = {deeplearning deepwiki glove semantic},
+  pages = {1532--1543},
+  timestamp = {2016-09-06T08:23:07.000+0200},
+  title = {Glove: Global Vectors for Word Representation.},
+  volume = 14,
+  year = 2014
+}
+
+
+@inproceedings{Elmo,
+    title = "Deep Contextualized Word Representations",
+    author = "Peters, Matthew E.  and
+      Neumann, Mark  and
+      Iyyer, Mohit  and
+      Gardner, Matt  and
+      Clark, Christopher  and
+      Lee, Kenton  and
+      Zettlemoyer, Luke",
+    editor = "Walker, Marilyn  and
+      Ji, Heng  and
+      Stent, Amanda",
+    booktitle = "Proceedings of the 2018 Conference of the North {A}merican Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long Papers)",
+    month = jun,
+    year = "2018",
+    address = "New Orleans, Louisiana",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/N18-1202",
+    doi = "10.18653/v1/N18-1202",
+    pages = "2227--2237",
+}
+%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%
+%RST Tree and graph
+@article{rst1988,
+url = {https://doi.org/10.1515/text.1.1988.8.3.243},
+title = {Rhetorical Structure Theory: Toward a functional theory of text organization},
+author = {WILLIAM C. Mann and SANDRA A. Thompson},
+pages = {243--281},
+volume = {8},
+number = {3},
+journal = {Text - Interdisciplinary Journal for the Study of Discourse},
+doi = {doi:10.1515/text.1.1988.8.3.243},
+year = {1988},
+lastchecked = {2023-12-18}
+}
+
+@inproceedings{ji-eisenstein-2014-representation,
+    title = "Representation Learning for Text-level Discourse Parsing",
+    author = "Ji, Yangfeng  and
+      Eisenstein, Jacob",
+    editor = "Toutanova, Kristina  and
+      Wu, Hua",
+    booktitle = "Proceedings of the 52nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jun,
+    year = "2014",
+    address = "Baltimore, Maryland",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/P14-1002",
+    doi = "10.3115/v1/P14-1002",
+    pages = "13--24",
+}
+
+@inproceedings{DPLP,
+    title = "Representation Learning for Text-level Discourse Parsing",
+    author = "Ji, Yangfeng  and
+      Eisenstein, Jacob",
+    editor = "Toutanova, Kristina  and
+      Wu, Hua",
+    booktitle = "Proceedings of the 52nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jun,
+    year = "2014",
+    address = "Baltimore, Maryland",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/P14-1002",
+    doi = "10.3115/v1/P14-1002",
+    pages = "13--24",
+}
+%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%
+%Co reference resolution
+@misc{coreference-review,
+      title={Anaphora and Coreference Resolution: A Review}, 
+      author={Rhea Sukthanker and Soujanya Poria and Erik Cambria and Ramkumar Thirunavukarasu},
+      year={2018},
+      eprint={1805.11824},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+
+@inproceedings{MMconv-author-recursive-inference,
+author = {Liao, Lizi and Zhu, Tongyao and Long, Le Hong and Chua, Tat Seng},
+title = {Multi-Domain Dialogue State Tracking with Recursive Inference},
+year = {2021},
+isbn = {9781450383127},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3442381.3450134},
+doi = {10.1145/3442381.3450134},
+booktitle = {Proceedings of the Web Conference 2021},
+pages = {2568–2577},
+numpages = {10},
+location = {Ljubljana, Slovenia},
+series = {WWW '21}
+}
+
+
+@inproceedings{StanfordCoreNLP,
+    title = "The {S}tanford {C}ore{NLP} Natural Language Processing Toolkit",
+    author = "Manning, Christopher  and
+      Surdeanu, Mihai  and
+      Bauer, John  and
+      Finkel, Jenny  and
+      Bethard, Steven  and
+      McClosky, David",
+    editor = "Bontcheva, Kalina  and
+      Zhu, Jingbo",
+    booktitle = "Proceedings of 52nd Annual Meeting of the Association for Computational Linguistics: System Demonstrations",
+    month = jun,
+    year = "2014",
+    address = "Baltimore, Maryland",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/P14-5010",
+    doi = "10.3115/v1/P14-5010",
+    pages = "55--60",
+}
+%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%
+%% An extractive approach that uses sentences as the atomic unit of selection in extractive summarization
+@misc{HiStruct,
+      title={HiStruct+: Improving Extractive Text Summarization with Hierarchical Structure Information}, 
+      author={Qian Ruan and Malte Ostendorff and Georg Rehm},
+      year={2022},
+      eprint={2203.09629},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%
+% Evaluation
+@inproceedings{koehn-2004-statistical,
+    title = "Statistical Significance Tests for Machine Translation Evaluation",
+    author = "Koehn, Philipp",
+    editor = "Lin, Dekang  and
+      Wu, Dekai",
+    booktitle = "Proceedings of the 2004 Conference on Empirical Methods in Natural Language Processing",
+    month = jul,
+    year = "2004",
+    address = "Barcelona, Spain",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/W04-3250",
+    pages = "388--395",
+}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%
