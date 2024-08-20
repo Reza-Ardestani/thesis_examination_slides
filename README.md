@@ -22,3 +22,18 @@ The most frequent feedback I received after my presentation was, "Why were you s
 <br>
 
 ## Pen and Paper!
+
+I also provided the audience with some pen and paper to elicit questions from them, as I have always found non-expert feedback on my work very interesting.
+
+<figure>
+    <img src="./misc/5.jpg" width="750" height="1200" alt="">
+</figure>
+<figure>
+    <img src="./misc/6.jpg" width="750" height="1200" alt="">
+</figure>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
